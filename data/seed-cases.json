@@ -1,0 +1,506 @@
+{
+  "authors": [
+    {
+      "id": "cervantes",
+      "name": "Miguel de Cervantes",
+      "category": "classic",
+      "country": "España"
+    },
+    {
+      "id": "leyenda-mexica",
+      "name": "Leyenda del Anáhuac",
+      "category": "local",
+      "country": "México"
+    },
+    {
+      "id": "homero",
+      "name": "Homero",
+      "category": "classic",
+      "country": "Grecia"
+    },
+    {
+      "id": "hernandez",
+      "name": "José Hernández",
+      "category": "local",
+      "country": "Argentina"
+    },
+    {
+      "id": "jimenez",
+      "name": "Juan Ramón Jiménez",
+      "category": "classic",
+      "country": "España"
+    },
+    {
+      "id": "leyenda-maiz",
+      "name": "Tradición nahua",
+      "category": "local",
+      "country": "México"
+    },
+    {
+      "id": "lazarillo",
+      "name": "Anónimo",
+      "category": "classic",
+      "country": "España"
+    },
+    {
+      "id": "sor-juana",
+      "name": "Sor Juana Inés de la Cruz",
+      "category": "local",
+      "country": "México"
+    }
+  ],
+  "cases": [
+    {
+      "id": "quijote-molinos",
+      "authorId": "cervantes",
+      "ageBand": "8-11",
+      "title": "El caballero y los gigantes",
+      "fragmentText": "Don Quijote cabalgaba por un campo de La Mancha cuando vio, a lo lejos, unos brazos enormes que giraban en el aire. —¡Mira, Sancho! —gritó—. Esos son gigantes. Voy a pelear contra ellos. Sancho Panza se acercó, preocupado. —Señor, no son gigantes. Son molinos de viento. Las aspas se mueven porque sopla el aire. Pero Don Quijote no escuchó. Espoleó a su caballo Rocinante y atacó el molino más cercano. Una aspa lo golpeó y lo lanzó al suelo. Sancho corrió a ayudarlo. —Le dije que eran molinos —susurró, mientras su amigo se sacudía el polvo, aún convencido de su hazaña.",
+      "questions": [
+        {
+          "id": "q-molinos-1",
+          "order": 1,
+          "promptText": "¿Qué cree Don Quijote que son los molinos?",
+          "explanation": "Don Quijote imagina que las aspas que giran son brazos de gigantes. Su fantasía cambia lo que ve.",
+          "options": [
+            { "id": "q-molinos-1-a", "label": "Gigantes con brazos que giran", "isCorrect": true },
+            { "id": "q-molinos-1-b", "label": "Barcos varados en el campo", "isCorrect": false },
+            { "id": "q-molinos-1-c", "label": "Árboles sacudidos por una tormenta", "isCorrect": false },
+            { "id": "q-molinos-1-d", "label": "Torres de un castillo enemigo", "isCorrect": false }
+          ]
+        },
+        {
+          "id": "q-molinos-2",
+          "order": 2,
+          "promptText": "¿Qué intenta hacer Sancho antes del ataque?",
+          "explanation": "Sancho advierte que son molinos de viento, no gigantes. Quiere evitar que su amigo se lastime.",
+          "options": [
+            { "id": "q-molinos-2-a", "label": "Huir y dejar solo a Don Quijote", "isCorrect": false },
+            { "id": "q-molinos-2-b", "label": "Advertirle que son molinos, no gigantes", "isCorrect": true },
+            { "id": "q-molinos-2-c", "label": "Pedirle el caballo prestado", "isCorrect": false },
+            { "id": "q-molinos-2-d", "label": "Llamar a más caballeros para la pelea", "isCorrect": false }
+          ]
+        },
+        {
+          "id": "q-molinos-3",
+          "order": 3,
+          "promptText": "¿Qué ocurre cuando Don Quijote ataca?",
+          "explanation": "Un aspa del molino lo golpea y lo tira al suelo. Aun así, él sigue creyendo que cumplió una hazaña.",
+          "options": [
+            { "id": "q-molinos-3-a", "label": "El molino se rinde y se detiene", "isCorrect": false },
+            { "id": "q-molinos-3-b", "label": "Sancho también carga contra el molino", "isCorrect": false },
+            { "id": "q-molinos-3-c", "label": "Un aspa lo derriba, pero él se siente victorioso", "isCorrect": true },
+            { "id": "q-molinos-3-d", "label": "Rocinante se niega a avanzar", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "volcanes-enamorados",
+      "authorId": "leyenda-mexica",
+      "ageBand": "8-11",
+      "title": "Los volcanes que no se despiden",
+      "fragmentText": "Hace mucho tiempo, en el valle de México, vivían dos jóvenes: Popocatépetl, un valiente guerrero, e Iztaccíhuatl, la hija del emperador. Se querían, pero el emperador pidió una prueba. Popocatépetl debía ganar una guerra lejana. Mientras él luchaba, un mensajero mentiroso dijo que el guerrero había muerto. Iztaccíhuatl, de tristeza, se apagó como una vela. Cuando Popocatépetl volvió victorioso, la encontró dormida para siempre. La cargó hasta las montañas y se arrodilló a su lado con una antorcha. Dicen que desde entonces ellos son dos volcanes: ella, la mujer dormida; él, el que aún guarda el fuego.",
+      "questions": [
+        {
+          "id": "q-volcan-1",
+          "order": 1,
+          "promptText": "¿Por qué se separan Popocatépetl e Iztaccíhuatl?",
+          "explanation": "El emperador exige que el guerrero gane una guerra lejana antes de aceptar el amor de su hija.",
+          "options": [
+            { "id": "q-volcan-1-a", "label": "Porque ella quiere viajar sola", "isCorrect": false },
+            { "id": "q-volcan-1-b", "label": "Porque el emperador pide una prueba de guerra", "isCorrect": true },
+            { "id": "q-volcan-1-c", "label": "Porque una erupción destruye el pueblo", "isCorrect": false },
+            { "id": "q-volcan-1-d", "label": "Porque Popocatépetl pierde la memoria", "isCorrect": false }
+          ]
+        },
+        {
+          "id": "q-volcan-2",
+          "order": 2,
+          "promptText": "¿Qué provoca la tristeza de Iztaccíhuatl?",
+          "explanation": "Un mensajero miente y anuncia que Popocatépetl ha muerto. Esa noticia falsa apaga su esperanza.",
+          "options": [
+            { "id": "q-volcan-2-a", "label": "Una mentira: le dicen que el guerrero murió", "isCorrect": true },
+            { "id": "q-volcan-2-b", "label": "Una sequía que deja el valle sin maíz", "isCorrect": false },
+            { "id": "q-volcan-2-c", "label": "Un destierro ordenado por los dioses", "isCorrect": false },
+            { "id": "q-volcan-2-d", "label": "Un duelo que ella misma provoca", "isCorrect": false }
+          ]
+        },
+        {
+          "id": "q-volcan-3",
+          "order": 3,
+          "promptText": "Según la leyenda, ¿qué representan hoy los dos volcanes?",
+          "explanation": "Iztaccíhuatl es la mujer dormida y Popocatépetl el volcán que aún cuida el fuego junto a ella.",
+          "options": [
+            { "id": "q-volcan-3-a", "label": "Dos hermanos que se pelean por un tesoro", "isCorrect": false },
+            { "id": "q-volcan-3-b", "label": "Un río y una laguna que nunca se juntan", "isCorrect": false },
+            { "id": "q-volcan-3-c", "label": "Dos ciudades rivales del valle", "isCorrect": false },
+            { "id": "q-volcan-3-d", "label": "Ella duerme en la montaña; él vigila con fuego", "isCorrect": true }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ulises-nadie",
+      "authorId": "homero",
+      "ageBand": "12-15",
+      "title": "El nombre que salvó la huida",
+      "fragmentText": "Ulises y sus hombres entraron a la cueva de Polifemo buscando refugio. El cíclope, un gigante de un solo ojo, los encerró con una roca enorme y devoró a dos marineros. Ulises no podía vencerlo por fuerza. Esa noche le ofreció vino y, cuando Polifemo preguntó su nombre, respondió: —Me llamo Nadie. Luego, con una estaca al rojo, cegó el único ojo del gigante. Polifemo gritó a los otros cíclopes: —¡Nadie me ataca! Ellos se fueron, creyendo que no pasaba nada. Al amanecer, Ulises ató a sus hombres bajo las ovejas. El cíclope ciego palpó los lomos, no los vientres, y así escaparon al mar.",
+      "questions": [
+        {
+          "id": "q-ulises-1",
+          "order": 1,
+          "promptText": "¿Por qué Ulises se presenta como «Nadie»?",
+          "explanation": "El nombre falso es una trampa: cuando Polifemo pida ayuda, dirá que nadie lo ataca y los otros cíclopes no intervendrán.",
+          "options": [
+            { "id": "q-ulises-1-a", "label": "Porque ha olvidado su propio nombre", "isCorrect": false },
+            { "id": "q-ulises-1-b", "label": "Para que el grito de auxilio no traiga ayuda", "isCorrect": true },
+            { "id": "q-ulises-1-c", "label": "Porque los cíclopes solo respetan el anonimato", "isCorrect": false },
+            { "id": "q-ulises-1-d", "label": "Para esconderse de sus propios marineros", "isCorrect": false }
+          ]
+        },
+        {
+          "id": "q-ulises-2",
+          "order": 2,
+          "promptText": "¿Qué limita a Ulises al inicio del episodio?",
+          "explanation": "La fuerza bruta no sirve: Polifemo es un gigante y además tapa la salida con una roca. Ulises necesita astucia.",
+          "options": [
+            { "id": "q-ulises-2-a", "label": "No puede vencer al cíclope solo con fuerza", "isCorrect": true },
+            { "id": "q-ulises-2-b", "label": "Sus hombres se niegan a entrar a la cueva", "isCorrect": false },
+            { "id": "q-ulises-2-c", "label": "El vino se acaba antes de la noche", "isCorrect": false },
+            { "id": "q-ulises-2-d", "label": "La roca se abre sola al amanecer", "isCorrect": false }
+          ]
+        },
+        {
+          "id": "q-ulises-3",
+          "order": 3,
+          "promptText": "¿Cómo logran salir de la cueva?",
+          "explanation": "Van atados bajo las ovejas. El cíclope ciego toca el lomo de los animales y no descubre a los hombres escondidos debajo.",
+          "options": [
+            { "id": "q-ulises-3-a", "label": "Empujan la roca entre todos al mismo tiempo", "isCorrect": false },
+            { "id": "q-ulises-3-b", "label": "Polifemo los deja ir a cambio del vino", "isCorrect": false },
+            { "id": "q-ulises-3-c", "label": "Se esconden bajo las ovejas que el cíclope palpa", "isCorrect": true },
+            { "id": "q-ulises-3-d", "label": "Cavan un túnel mientras el gigante duerme", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fierro-frontera",
+      "authorId": "hernandez",
+      "ageBand": "12-15",
+      "title": "El verso que no pide perdón",
+      "fragmentText": "Martín Fierro era un gaucho de la pampa. Sabía rastrear, tocar la guitarra y defenderse con el facón, pero el juez lo mandó a la frontera a pelear una guerra que no era suya. Allí le quitaron el sueldo, le negaron el descanso y lo trataron como a un extraño en su propia tierra. Extrañaba el fogón, los caballos y la voz de su familia. Una noche decidió no esperar más. Cruzó el campo bajo las estrellas, con el poncho al hombro y una canción amarga en la boca. Su verso no pedía perdón: pedía memoria. Quería que alguien, algún día, contara cómo se destierra a un hombre libre.",
+      "questions": [
+        {
+          "id": "q-fierro-1",
+          "order": 1,
+          "promptText": "¿Qué injusticia dispara la historia de Fierro?",
+          "explanation": "Lo envían a la frontera por orden de un juez, a una guerra ajena, y allí lo despojan de sueldo y descanso.",
+          "options": [
+            { "id": "q-fierro-1-a", "label": "Lo mandan a la frontera y lo despojan de lo suyo", "isCorrect": true },
+            { "id": "q-fierro-1-b", "label": "Pierde la guitarra en una apuesta", "isCorrect": false },
+            { "id": "q-fierro-1-c", "label": "Un malón destruye su rancho por accidente", "isCorrect": false },
+            { "id": "q-fierro-1-d", "label": "Sus vecinos lo acusan de no saber cantar", "isCorrect": false }
+          ]
+        },
+        {
+          "id": "q-fierro-2",
+          "order": 2,
+          "promptText": "¿Qué extraña Fierro mientras está en la frontera?",
+          "explanation": "El fragmento nombra el fogón, los caballos y la voz de su familia: la vida cotidiana de la que lo arrancaron.",
+          "options": [
+            { "id": "q-fierro-2-a", "label": "El mar y los puertos del norte", "isCorrect": false },
+            { "id": "q-fierro-2-b", "label": "El fogón, los caballos y su familia", "isCorrect": true },
+            { "id": "q-fierro-2-c", "label": "El juicio que aún no termina", "isCorrect": false },
+            { "id": "q-fierro-2-d", "label": "La fama de los payadores de la ciudad", "isCorrect": false }
+          ]
+        },
+        {
+          "id": "q-fierro-3",
+          "order": 3,
+          "promptText": "¿Qué busca el verso de Fierro al final del fragmento?",
+          "explanation": "No pide perdón. Quiere memoria: que alguien recuerde cómo se destierra a un hombre libre.",
+          "options": [
+            { "id": "q-fierro-3-a", "label": "Una disculpa pública del juez", "isCorrect": false },
+            { "id": "q-fierro-3-b", "label": "Riqueza para volver a la pampa", "isCorrect": false },
+            { "id": "q-fierro-3-c", "label": "Venganza inmediata contra sus jefes", "isCorrect": false },
+            { "id": "q-fierro-3-d", "label": "Que alguien recuerde su destierro", "isCorrect": true }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "platero-luna",
+      "authorId": "jimenez",
+      "ageBand": "8-11",
+      "title": "Platero bajo la luna",
+      "fragmentText": "Platero es pequeño, peludo y suave. Parece de algodón, con los ojos de azabache. Lo llevo por el campo de Moguer y él trota tan cerca que a veces me pisa la sombra. Cuando sale la luna, se detiene. Escucha un grillo, mueve las orejas y sigue, como si el camino fuera un cuento. La gente del pueblo sonríe al vernos. —Ahí va el poeta con su burrito —dicen. Yo no corrijo. Prefiero que Platero olvide el ruido y recuerde el olor del tomillo.",
+      "questions": [
+        {
+          "id": "q-platero-1",
+          "order": 1,
+          "promptText": "¿Cómo describe el narrador a Platero?",
+          "explanation": "Dice que es pequeño, peludo y suave, como de algodón, con ojos de azabache.",
+          "options": [
+            { "id": "q-platero-1-a", "label": "Pequeño, suave y con ojos de azabache", "isCorrect": true },
+            { "id": "q-platero-1-b", "label": "Alto, nervioso y difícil de guiar", "isCorrect": false },
+            { "id": "q-platero-1-c", "label": "Viejo, cansado y casi ciego", "isCorrect": false },
+            { "id": "q-platero-1-d", "label": "Salvaje, porque nunca entra al pueblo", "isCorrect": false }
+          ]
+        },
+        {
+          "id": "q-platero-2",
+          "order": 2,
+          "promptText": "¿Qué hace Platero cuando sale la luna?",
+          "explanation": "Se detiene, escucha un grillo, mueve las orejas y luego sigue el camino.",
+          "options": [
+            { "id": "q-platero-2-a", "label": "Sale corriendo hacia el pueblo", "isCorrect": false },
+            { "id": "q-platero-2-b", "label": "Se detiene, escucha y sigue como en un cuento", "isCorrect": true },
+            { "id": "q-platero-2-c", "label": "Se esconde detrás del narrador", "isCorrect": false },
+            { "id": "q-platero-2-d", "label": "Duerme hasta el amanecer", "isCorrect": false }
+          ]
+        },
+        {
+          "id": "q-platero-3",
+          "order": 3,
+          "promptText": "¿Qué prefiere el narrador para Platero?",
+          "explanation": "Quiere que olvide el ruido del pueblo y recuerde el olor del tomillo: el campo, no el chisme.",
+          "options": [
+            { "id": "q-platero-3-a", "label": "Que gane una carrera de burros", "isCorrect": false },
+            { "id": "q-platero-3-b", "label": "Que salude a toda la gente", "isCorrect": false },
+            { "id": "q-platero-3-c", "label": "Que olvide el ruido y recuerde el campo", "isCorrect": true },
+            { "id": "q-platero-3-d", "label": "Que deje de pisarle la sombra", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "maiz-sagrado",
+      "authorId": "leyenda-maiz",
+      "ageBand": "8-11",
+      "title": "El grano que no se rinde",
+      "fragmentText": "Dicen que al principio la tierra no tenía maíz. La gente comía raíces amargas y se dormía con hambre. Quetzalcóatl, compadecido, se convirtió en hormiga negra y se metió por una grieta de la montaña. Adentro había granos de colores: rojo, azul, amarillo y blanco. Sacó uno, luego otro, y los llevó a los humanos. Sembraron con respeto. Cada color era una estación, una familia, una promesa. Por eso, cuando un grano cae, no se pisa: se levanta. El maíz no es solo comida. Es un pacto.",
+      "questions": [
+        {
+          "id": "q-maiz-1",
+          "order": 1,
+          "promptText": "¿Por qué Quetzalcóatl se convierte en hormiga?",
+          "explanation": "Para entrar por una grieta de la montaña y sacar el maíz que estaba escondido.",
+          "options": [
+            { "id": "q-maiz-1-a", "label": "Para esconderse de una tormenta", "isCorrect": false },
+            { "id": "q-maiz-1-b", "label": "Para entrar a la montaña y traer el maíz", "isCorrect": true },
+            { "id": "q-maiz-1-c", "label": "Para asustar a los humanos", "isCorrect": false },
+            { "id": "q-maiz-1-d", "label": "Para dormir bajo tierra todo el invierno", "isCorrect": false }
+          ]
+        },
+        {
+          "id": "q-maiz-2",
+          "order": 2,
+          "promptText": "¿Qué significan los colores del grano?",
+          "explanation": "El fragmento dice que cada color era una estación, una familia y una promesa.",
+          "options": [
+            { "id": "q-maiz-2-a", "label": "Solo sirven para decorar fiestas", "isCorrect": false },
+            { "id": "q-maiz-2-b", "label": "Marcan quién gana la cosecha", "isCorrect": false },
+            { "id": "q-maiz-2-c", "label": "Son errores de la montaña", "isCorrect": false },
+            { "id": "q-maiz-2-d", "label": "Estación, familia y promesa", "isCorrect": true }
+          ]
+        },
+        {
+          "id": "q-maiz-3",
+          "order": 3,
+          "promptText": "¿Por qué no se pisa un grano caído?",
+          "explanation": "Porque el maíz es un pacto, no solo comida: se levanta con respeto.",
+          "options": [
+            { "id": "q-maiz-3-a", "label": "Porque el maíz es un pacto, no solo comida", "isCorrect": true },
+            { "id": "q-maiz-3-b", "label": "Porque atrae hormigas peligrosas", "isCorrect": false },
+            { "id": "q-maiz-3-c", "label": "Porque Quetzalcóatl lo prohíbe en voz alta", "isCorrect": false },
+            { "id": "q-maiz-3-d", "label": "Porque el grano caído ya no sirve", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lazarillo-ciego",
+      "authorId": "lazarillo",
+      "ageBand": "12-15",
+      "title": "La lección de la piedra",
+      "fragmentText": "Lázaro servía a un ciego que lo entrenaba a golpes y a hambre. Un día, junto a un arroyo, el amo le dijo: —Toma esta uva. Hay que compartir. Contó: una para ti, una para mí. Lázaro, más listo, tomaba de dos en dos. El ciego lo supo por el ruido y le partió la cara. Más tarde, frente a un pilar, el amo pidió que lo colocara justo delante. Lázaro lo alineó contra la piedra y saltó a un lado. El ciego se dio de bruces. —¿Cómo pagas mis enseñanzas? —gritó. Lázaro respondió que así se aprende: el que engaña también puede ser engañado.",
+      "questions": [
+        {
+          "id": "q-laz-1",
+          "order": 1,
+          "promptText": "¿Qué relación hay entre Lázaro y el ciego?",
+          "explanation": "Lázaro le sirve, pero el amo lo educa con hambre y golpes: es una relación de abuso y aprendizaje cruel.",
+          "options": [
+            { "id": "q-laz-1-a", "label": "Son hermanos que viajan juntos", "isCorrect": false },
+            { "id": "q-laz-1-b", "label": "Lázaro sirve a un amo que lo trata con dureza", "isCorrect": true },
+            { "id": "q-laz-1-c", "label": "El ciego es un maestro de escuela pagado", "isCorrect": false },
+            { "id": "q-laz-1-d", "label": "Lázaro lo guía por caridad, sin aprender nada", "isCorrect": false }
+          ]
+        },
+        {
+          "id": "q-laz-2",
+          "order": 2,
+          "promptText": "¿Cómo descubre el ciego el truco de las uvas?",
+          "explanation": "Aunque no ve, escucha: el ruido delata que Lázaro toma de dos en dos.",
+          "options": [
+            { "id": "q-laz-2-a", "label": "Un vecino se lo cuenta", "isCorrect": false },
+            { "id": "q-laz-2-b", "label": "Cuenta las semillas al final", "isCorrect": false },
+            { "id": "q-laz-2-c", "label": "Lo sabe por el ruido de las uvas", "isCorrect": true },
+            { "id": "q-laz-2-d", "label": "Lázaro confiesa de inmediato", "isCorrect": false }
+          ]
+        },
+        {
+          "id": "q-laz-3",
+          "order": 3,
+          "promptText": "¿Qué lección deja el golpe contra la piedra?",
+          "explanation": "Lázaro devuelve el engaño: quien usa la astucia para herir también puede recibirla.",
+          "options": [
+            { "id": "q-laz-3-a", "label": "Que el que engaña también puede ser engañado", "isCorrect": true },
+            { "id": "q-laz-3-b", "label": "Que hay que confiar siempre en el amo", "isCorrect": false },
+            { "id": "q-laz-3-c", "label": "Que las piedras del pueblo están encantadas", "isCorrect": false },
+            { "id": "q-laz-3-d", "label": "Que Lázaro decide quedarse para siempre", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sor-juana-verso",
+      "authorId": "sor-juana",
+      "ageBand": "12-15",
+      "title": "La pluma que responde",
+      "fragmentText": "En el convento, Sor Juana escribía de noche, cuando el corredor quedaba en silencio. Le decían que una mujer no debía saber tanto. Ella contestaba con versos y con preguntas: si el entendimiento no tiene sexo, ¿por qué cerrarle la puerta a la mitad del mundo? En sus redondillas no insultaba por gusto: devolvía el argumento. Quien acusa a otra de locura, decía, a veces esconde su propio miedo a escuchar. La lámpara se consumía y ella seguía. No pedía permiso para pensar. Pedía espacio.",
+      "questions": [
+        {
+          "id": "q-sj-1",
+          "order": 1,
+          "promptText": "¿Qué le reclaman a Sor Juana?",
+          "explanation": "Le dicen que una mujer no debería saber tanto: cuestionan su derecho a estudiar y escribir.",
+          "options": [
+            { "id": "q-sj-1-a", "label": "Que una mujer no debía saber tanto", "isCorrect": true },
+            { "id": "q-sj-1-b", "label": "Que escriba más rápido para la iglesia", "isCorrect": false },
+            { "id": "q-sj-1-c", "label": "Que deje el convento y viaje a España", "isCorrect": false },
+            { "id": "q-sj-1-d", "label": "Que apague la lámpara por ahorro", "isCorrect": false }
+          ]
+        },
+        {
+          "id": "q-sj-2",
+          "order": 2,
+          "promptText": "¿Cómo responde ella a esa crítica?",
+          "explanation": "Con versos y preguntas: si el entendimiento no tiene sexo, no se le puede cerrar la puerta a las mujeres.",
+          "options": [
+            { "id": "q-sj-2-a", "label": "Dejando de escribir para evitar líos", "isCorrect": false },
+            { "id": "q-sj-2-b", "label": "Con versos y la idea de que pensar no tiene sexo", "isCorrect": true },
+            { "id": "q-sj-2-c", "label": "Acusando a todos sin argumentar", "isCorrect": false },
+            { "id": "q-sj-2-d", "label": "Pidiendo que quemen sus libros", "isCorrect": false }
+          ]
+        },
+        {
+          "id": "q-sj-3",
+          "order": 3,
+          "promptText": "Según el fragmento, ¿qué pide al final?",
+          "explanation": "No pide permiso para pensar; pide espacio, es decir, libertad para seguir estudiando.",
+          "options": [
+            { "id": "q-sj-3-a", "label": "Un título oficial de la corte", "isCorrect": false },
+            { "id": "q-sj-3-b", "label": "Que nadie vuelva a leerla", "isCorrect": false },
+            { "id": "q-sj-3-c", "label": "Espacio para pensar, no permiso", "isCorrect": true },
+            { "id": "q-sj-3-d", "label": "Que apaguen la lámpara por ella", "isCorrect": false }
+          ]
+        }
+      ]
+    }
+  ],
+  "bots": [
+    {
+      "id": "bot-luna",
+      "displayName": "Luna Lupa",
+      "ageBand": "8-11",
+      "sessions": [
+        {
+          "caseId": "quijote-molinos",
+          "totalPoints": 430,
+          "firstAttemptCorrectCount": 3,
+          "daysAgo": 1
+        },
+        {
+          "caseId": "volcanes-enamorados",
+          "totalPoints": 355,
+          "firstAttemptCorrectCount": 2,
+          "daysAgo": 0
+        }
+      ]
+    },
+    {
+      "id": "bot-tomi",
+      "displayName": "Tomi Pista",
+      "ageBand": "8-11",
+      "sessions": [
+        {
+          "caseId": "quijote-molinos",
+          "totalPoints": 280,
+          "firstAttemptCorrectCount": 2,
+          "daysAgo": 2
+        }
+      ]
+    },
+    {
+      "id": "bot-sofi",
+      "displayName": "Sofi Clave",
+      "ageBand": "8-11",
+      "sessions": [
+        {
+          "caseId": "volcanes-enamorados",
+          "totalPoints": 210,
+          "firstAttemptCorrectCount": 1,
+          "daysAgo": 3
+        }
+      ]
+    },
+    {
+      "id": "bot-nico",
+      "displayName": "Nico Folio",
+      "ageBand": "12-15",
+      "sessions": [
+        {
+          "caseId": "ulises-nadie",
+          "totalPoints": 410,
+          "firstAttemptCorrectCount": 3,
+          "daysAgo": 0
+        },
+        {
+          "caseId": "fierro-frontera",
+          "totalPoints": 340,
+          "firstAttemptCorrectCount": 2,
+          "daysAgo": 1
+        }
+      ]
+    },
+    {
+      "id": "bot-mara",
+      "displayName": "Mara Tinta",
+      "ageBand": "12-15",
+      "sessions": [
+        {
+          "caseId": "ulises-nadie",
+          "totalPoints": 255,
+          "firstAttemptCorrectCount": 2,
+          "daysAgo": 2
+        }
+      ]
+    },
+    {
+      "id": "bot-alex",
+      "displayName": "Alex Quill",
+      "ageBand": "12-15",
+      "sessions": [
+        {
+          "caseId": "fierro-frontera",
+          "totalPoints": 190,
+          "firstAttemptCorrectCount": 1,
+          "daysAgo": 4
+        }
+      ]
+    }
+  ]
+}
